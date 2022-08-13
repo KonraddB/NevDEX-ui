@@ -1,21 +1,21 @@
 <template>
   <Hero />
-  <div class="container mx-auto">
-    <div class="flex mt-96 h-full">
-      <div class="w-2/3">
-        <img class="px-20 drop-shadow-lg bg" src="../assets/screen_shot.png" alt="screen_shot" />
+  <div class="container mx-auto md:p-0 p-5">
+    <div class="flex md:flex-row flex-col md:mt-96 mt-72 h-full">
+      <div class="md:w-2/3">
+        <img class="md:px-20 drop-shadow-lg bg" src="../assets/screen_shot.png" alt="screen_shot" />
       </div>
-      <div class="w-1/3 text-white my-auto">
+      <div class="md:w-1/3 md:mt-0 mt-12 text-white my-auto">
         <div class="space-y-6">
-          <div class="text-3xl">Unlock the full potential of on-chain trading</div>
-          <div class="text-gray-500">NevDEX strives to meet the demands of both professional and newbie traders by combining the best of CeFi and DeFi in a single product.</div>
+          <div class="text-3xl text-center md:text-left">Unlock the full potential of on-chain trading</div>
+          <div class="text-gray-500 text-center md:text-left">NevDEX strives to meet the demands of both professional and newbie traders by combining the best of CeFi and DeFi in a single product.</div>
         </div>
       </div>
     </div>
     <!-- middle -->
     <div>
       <div class="pb-10 h-5/6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-4 mt-20 max-w-6xl mx-auto">
-        <div class="p-6 max-w-sm bg-gray-800 rounded-lg border border-gray-900 shadow-md h-80">
+        <div class="p-6 max-w-sm bg-gray-800 rounded-lg border border-gray-900 shadow-md">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
             <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
           </svg>
