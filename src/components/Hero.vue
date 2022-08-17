@@ -1,9 +1,9 @@
 <template>
-  <div class="flex flex-col text-center mass-header z-10 md:p-0 p-5">
+  <div class="flex flex-col text-center mass-header z-10">
     <video autoPlay loop muted id="video">
       <source src="../assets/header-bg.mp4" type="video/mp4" />
     </video>
-    <div class="z-10 flex flex-col">
+    <div class="z-10 flex flex-col md:p-0 p-5">
       <span class="text-gray-50 font-bold md:text-5xl text-3xl md:mt-40 mt-20">
         Trade on NevDEX Faster, Cheaper <br />
         and more Stable.
