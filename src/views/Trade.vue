@@ -8,10 +8,10 @@
             <div class="p-2 bg-gray-900 h-full">
               <ul class="flex rounded-lg divide-gray-200 shadow sm:flex">
                 <li class="w-full">
-                  <a href="#" class="inline-block relative py-2 px-4 w-full text-sm font-medium text-center text-gray-50 bg-gray-800 hover:text-gray-700 hover:bg-gray-600 focus:bg-green-300" @click="toggleTabs('buy')" v-bind:class="{ 'bg-green-300': tab === 'buy' }">BUY</a>
+                  <button class="inline-block relative py-2 px-4 w-full text-sm font-medium text-center text-gray-50 bg-gray-800 hover:text-gray-700 hover:bg-gray-600 focus:bg-green-300" @click="toggleTabs('buy')" v-bind:class="{ 'bg-green-300': tab === 'buy' }">BUY</button>
                 </li>
                 <li class="w-full">
-                  <a href="#" class="inline-block relative py-2 px-4 w-full text-sm font-medium text-center text-gray-50 bg-gray-800 hover:text-gray-700 hover:bg-gray-600 focus:bg-red-400" @click="toggleTabs('sell')" v-bind:class="{ 'bg-red-400': tab === 'sell' }">SELL</a>
+                  <button class="inline-block relative py-2 px-4 w-full text-sm font-medium text-center text-gray-50 bg-gray-800 hover:text-gray-700 hover:bg-gray-600 focus:bg-red-400" @click="toggleTabs('sell')" v-bind:class="{ 'bg-red-400': tab === 'sell' }">SELL</button>
                 </li>
               </ul>
 

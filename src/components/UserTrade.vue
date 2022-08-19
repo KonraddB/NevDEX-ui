@@ -248,9 +248,4 @@ export default {
 .trade-list {
   height: 35vh;
 }
-@media only screen and (max-width: 640px) {
-  .trade-list {
-    height: auto;
-  }
-}
 </style>
